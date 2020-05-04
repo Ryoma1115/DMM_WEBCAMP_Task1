@@ -17,7 +17,7 @@ main {
 }
 .step-img1 {
 	height: 150px;
-	background-image: url(file:///Users/takaneryohei/Downloads/chapter9_answer/img/flow01.png);
+	background-image: url(flow01.png);
 	background-size: cover;
 	background-position: bottom;
 }
@@ -34,20 +34,20 @@ main {
 }
 .step-img2 {
 	height: 150px;
-	background-image: url(file:///Users/takaneryohei/Downloads/chapter9_answer/img/flow02.png);
+	background-image: url(flow02.png);
 	background-size: cover;
 	background-position: bottom;
 }
 .step-img3 {
 	height: 150px;
-	background-image: url(file:///Users/takaneryohei/Downloads/chapter9_answer/img/flow03.png);
+	background-image: url(flow03.png);
 	background-size: cover;
 	background-position: bottom;
 }
 .step-box:last-child {
 	margin-right: 0;
 }
-@media screen and (max-width:425px) {
+@media screen and (max-width:768px) {
 	main {
  	width: 100%;
  	margin: 50px auto;
