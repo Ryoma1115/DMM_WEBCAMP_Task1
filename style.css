@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+main {
+	margin: 50px auto;
+	width: 960px;
+}
+.step-box {
+	float: left;
+	width: 300px;
+	border: 1px solid #eee;
+	margin-right: 30px;
+	padding: 10px;
+	position: relative;
+}
+.step-img1 {
+	height: 150px;
+	background-image: url(file:///Users/takaneryohei/Downloads/chapter9_answer/img/flow01.png);
+	background-size: cover;
+	background-position: bottom;
+}
+.step-num {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #ff9a4b;
+	color: #fff;
+	padding: 3px;
+}
+.title {
+	margin: 15px 0 5px
+}
+.step-img2 {
+	height: 150px;
+	background-image: url(file:///Users/takaneryohei/Downloads/chapter9_answer/img/flow02.png);
+	background-size: cover;
+	background-position: bottom;
+}
+.step-img3 {
+	height: 150px;
+	background-image: url(file:///Users/takaneryohei/Downloads/chapter9_answer/img/flow03.png);
+	background-size: cover;
+	background-position: bottom;
+}
+.step-box:last-child {
+	margin-right: 0;
+}
+@media screen and (max-width:425px) {
+	main {
+ 	width: 100%;
+ 	margin: 50px auto;
+	}
+	.step-box {
+ 	width: 90%;
+ 	margin: 0 auto 20px auto;
+ 	float: none;
+	}
+	.step-box:last-child {
+ 	margin: 0 auto;
+	}
+}
